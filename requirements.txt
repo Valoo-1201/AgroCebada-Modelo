@@ -1,0 +1,17 @@
+# Paquetes que usan los cuadernos, con las versiones del entorno de Google Colab
+# donde se generaron las predicciones entregadas (Python 3.13, octubre de 2026).
+# El registro completo del entorno lo escribe el cuaderno 01 en qa/entorno_pip_freeze.txt.
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+lightgbm==4.6.0
+matplotlib==3.10.0
+pyarrow==23.0.1
+geopandas==1.1.4
+shapely==2.1.2
+pyproj==3.8.0
+pyogrio==0.13.0
+rasterio==1.5.1
+requests==2.32.4
+owslib>=0.29

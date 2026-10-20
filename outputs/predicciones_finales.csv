@@ -1,0 +1,60 @@
+ID_POLIGONO,Municipio,Estado,RENDIMIENTO_PRED_T_HA,P10,P20,P80,P90,riesgo,RENDIMIENTO_SATELITAL_T_HA,dist_parcela_entrenamiento_km
+AGC_003,Singuilucan,Hidalgo,3.293,2.722,2.894,3.673,3.853,Alto,3.436,0.381
+AGC_011,Chignahuapan,Puebla,4.508,3.925,4.101,4.896,5.08,Medio,4.682,0.833
+AGC_016,Chignahuapan,Puebla,4.577,4.096,4.241,4.898,5.049,Bajo,4.323,0.17
+AGC_025,Calpulalpan,Tlaxcala,2.993,2.427,2.597,3.369,3.547,Alto,3.089,0.397
+AGC_027,Calpulalpan,Tlaxcala,2.951,2.372,2.546,3.337,3.519,Alto,3.23,0.522
+AGC_028,Chignahuapan,Puebla,4.595,4.102,4.251,4.923,5.078,Bajo,4.639,0.203
+AGC_029,Calpulalpan,Tlaxcala,3.032,2.445,2.622,3.423,3.607,Alto,3.054,0.78
+AGC_030,Singuilucan,Hidalgo,3.141,2.558,2.733,3.529,3.712,Alto,3.22,0.503
+AGC_031,Chignahuapan,Puebla,4.018,3.532,3.679,4.341,4.494,Medio,4.46,0.181
+AGC_036,Chignahuapan,Puebla,4.338,3.816,3.973,4.685,4.85,Medio,4.4,0.294
+AGC_039,Calpulalpan,Tlaxcala,2.92,2.343,2.517,3.304,3.486,Alto,2.989,0.481
+AGC_042,Singuilucan,Hidalgo,3.083,2.545,2.707,3.44,3.609,Alto,3.076,0.315
+AGC_043,Chignahuapan,Puebla,4.433,3.915,4.071,4.777,4.94,Bajo,4.388,0.349
+AGC_050,Calpulalpan,Tlaxcala,2.979,2.397,2.573,3.366,3.549,Alto,2.997,0.598
+AGC_052,Cuautepec de Hinojosa,Hidalgo,4.593,4.067,4.226,4.943,5.108,Bajo,4.482,0.244
+AGC_061,Calpulalpan,Tlaxcala,3.002,2.413,2.591,3.394,3.58,Alto,2.903,0.981
+AGC_063,Chignahuapan,Puebla,4.497,3.921,4.094,4.88,5.062,Medio,4.543,0.618
+AGC_065,Almoloya,Hidalgo,4.507,3.897,4.081,4.913,5.105,Medio,4.141,1.909
+AGC_071,Calpulalpan,Tlaxcala,3.117,2.637,2.782,3.436,3.587,Medio,2.951,0.197
+AGC_075,Calpulalpan,Tlaxcala,3.011,2.451,2.619,3.383,3.56,Alto,3.132,0.385
+AGC_076,Chignahuapan,Puebla,4.491,3.948,4.112,4.852,5.022,Medio,4.558,0.308
+AGC_082,Almoloya,Hidalgo,4.496,3.913,4.088,4.884,5.068,Medio,3.999,0.493
+AGC_085,Chignahuapan,Puebla,4.038,3.53,3.683,4.376,4.536,Medio,4.332,0.226
+AGC_086,Calpulalpan,Tlaxcala,2.999,2.417,2.592,3.386,3.569,Alto,3.159,0.574
+AGC_087,Calpulalpan,Tlaxcala,2.766,2.252,2.407,3.107,3.269,Alto,2.895,0.225
+AGC_088,Chignahuapan,Puebla,4.419,3.965,4.102,4.72,4.863,Bajo,4.416,0.135
+AGC_091,Chignahuapan,Puebla,4.504,4.076,4.205,4.789,4.923,Bajo,4.594,0.093
+AGC_093,Calpulalpan,Tlaxcala,3.055,2.497,2.665,3.426,3.601,Alto,3.097,0.369
+AGC_094,Chignahuapan,Puebla,4.792,4.3,4.448,5.119,5.274,Bajo,4.589,0.187
+AGC_095,Chignahuapan,Puebla,4.633,4.154,4.299,4.952,5.102,Bajo,4.421,0.213
+AGC_107,Almoloya,Hidalgo,4.489,3.992,4.142,4.82,4.976,Bajo,4.397,0.2
+AGC_113,Singuilucan,Hidalgo,3.125,2.618,2.771,3.461,3.621,Medio,3.257,0.224
+AGC_116,Chignahuapan,Puebla,4.517,4.047,4.188,4.829,4.977,Bajo,4.191,0.2
+AGC_118,Singuilucan,Hidalgo,3.15,2.548,2.729,3.55,3.74,Alto,3.028,1.07
+AGC_120,Nanacamilpa de Mariano Arista,Tlaxcala,2.954,2.203,2.429,3.452,3.688,Alto,3.315,1.255
+AGC_126,Chignahuapan,Puebla,4.551,4.017,4.178,4.906,5.074,Bajo,4.502,0.301
+AGC_128,Almoloya,Hidalgo,4.531,4.003,4.162,4.882,5.048,Bajo,4.325,0.248
+AGC_129,Singuilucan,Hidalgo,3.231,2.641,2.819,3.623,3.808,Alto,3.243,0.514
+AGC_130,Cuautepec de Hinojosa,Hidalgo,4.515,3.902,4.087,4.923,5.115,Medio,4.488,0.445
+AGC_136,Chignahuapan,Puebla,4.546,4.064,4.209,4.867,5.018,Bajo,4.364,0.183
+AGC_142,Chignahuapan,Puebla,4.532,4.122,4.245,4.804,4.933,Bajo,4.654,0.067
+AGC_143,Chignahuapan,Puebla,4.548,4.0,4.165,4.911,5.083,Bajo,4.321,0.317
+AGC_147,Calpulalpan,Tlaxcala,3.007,2.417,2.595,3.399,3.584,Alto,3.199,1.166
+AGC_149,Cuautepec de Hinojosa,Hidalgo,4.526,3.979,4.144,4.891,5.063,Medio,4.502,0.252
+AGC_153,Chignahuapan,Puebla,4.354,3.779,3.952,4.735,4.916,Medio,4.265,0.514
+AGC_154,Chignahuapan,Puebla,4.629,4.13,4.281,4.961,5.118,Bajo,4.464,0.281
+AGC_156,Singuilucan,Hidalgo,3.164,2.567,2.747,3.562,3.749,Alto,3.318,0.764
+AGC_158,Chignahuapan,Puebla,4.378,3.837,4.0,4.737,4.907,Medio,4.15,0.341
+AGC_173,Calpulalpan,Tlaxcala,3.01,2.42,2.598,3.402,3.588,Alto,3.458,1.694
+AGC_174,Cuautepec de Hinojosa,Hidalgo,4.521,3.875,4.07,4.951,5.155,Medio,3.946,1.638
+AGC_175,Chignahuapan,Puebla,4.705,4.178,4.337,5.056,5.221,Bajo,4.475,0.263
+AGC_177,Chignahuapan,Puebla,4.203,3.657,3.822,4.566,4.737,Medio,4.331,0.364
+AGC_182,Chignahuapan,Puebla,4.562,3.998,4.168,4.936,5.113,Medio,4.455,0.399
+AGC_183,Calpulalpan,Tlaxcala,3.009,2.42,2.598,3.401,3.587,Alto,2.882,1.083
+AGC_186,Chignahuapan,Puebla,4.41,3.832,4.006,4.794,4.976,Medio,4.19,0.55
+AGC_188,Chignahuapan,Puebla,4.656,4.107,4.272,5.021,5.193,Bajo,4.733,0.334
+AGC_190,Chignahuapan,Puebla,4.468,3.966,4.117,4.802,4.959,Bajo,4.425,0.288
+AGC_191,Chignahuapan,Puebla,4.524,4.026,4.176,4.855,5.011,Bajo,4.63,0.211
+AGC_192,Chignahuapan,Puebla,4.454,3.872,4.047,4.842,5.025,Medio,4.602,0.761

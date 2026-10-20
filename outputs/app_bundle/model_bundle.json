@@ -1,0 +1,35 @@
+{
+ "final_model": "5 hierarchical GP",
+ "ensemble_weights": {
+  "0 municipality mean": 0.2701,
+  "5 hierarchical GP": 0.5781,
+  "6 hierarchical GP + features": 0.0,
+  "8 satellite-only ridge": 0.0159,
+  "9 satellite-only random forest": 0.1359
+ },
+ "conformal_quantiles": {
+  "P10": -1.1521204856678215,
+  "P20": -0.8048628589242536,
+  "P80": 0.766004006017546,
+  "P90": 1.1280239542394026
+ },
+ "risk_thresholds_relative_downside": [
+  0.08407108403232277,
+  0.11857899971358257
+ ],
+ "hgp_params": {
+  "s_muni": 0.5424881207231893,
+  "s_spatial": 0.18917225042949706,
+  "l_spatial_km": 0.300035810119331,
+  "noise": 0.06299651278842337
+ },
+ "hgp_raw_params": [
+  -0.6115890910917151,
+  -1.6650973010413561,
+  -1.2038534443851805,
+  -2.7646759066873225
+ ],
+ "oof_rmse_final": 0.5026855065485356,
+ "baseline_rmse": 0.508728514765868,
+ "created": "2026-10-06T19:40:25"
+}
