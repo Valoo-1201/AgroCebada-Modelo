@@ -158,3 +158,7 @@ Run the notebooks in the same order. Outside Colab, each notebook reads the base
 ## Data sources
 
 In addition to the challenge data, the pipeline uses CHIRPS (Funk et al., 2015), CHIRTS-ERA5 (Climate Hazards Center, 2025), the Mexican Elevation Continuum 4.0 (INEGI) and SoilGrids 2.0 (Poggio et al., 2021). Full references for data and methods are in [`docs/sources.md`](docs/sources.md).
+
+## Team
+
+Equipo Representativo STEM · UDLAP · Lourdes María García Garfias | María Valentina García Hernández | Dana Paola Sánchez Alonso | Dulce Grecia Pérez Capilla | Lizeth Bonilla Díaz
