@@ -159,6 +159,15 @@ Run the notebooks in the same order. Outside Colab, each notebook reads the base
 
 In addition to the challenge data, the pipeline uses CHIRPS (Funk et al., 2015), CHIRTS-ERA5 (Climate Hazards Center, 2025), the Mexican Elevation Continuum 4.0 (INEGI) and SoilGrids 2.0 (Poggio et al., 2021). Full references for data and methods are in [`docs/sources.md`](docs/sources.md).
 
+## Related repositories
+
+The project is split into two repositories. Both are linked at the end of chapter 2 of the website
+(section "¿Quieres ver cómo lo hicimos?").
+
+- **Website (this repository):** [github.com/Hyatxs/AgroCebada-Modular](https://github.com/Hyatxs/AgroCebada-Modular)
+- **Predictive model:** [github.com/Valoo-1201/AgroCebada-Modelo](https://github.com/Valoo-1201/AgroCebada-Modelo).
+  It contains the notebooks that produce the site's figures (NB03 phenology, NB04 climate, NB07 final model).
+
 ## Team
 
 Equipo Representativo STEM · UDLAP · Lourdes María García Garfias | María Valentina García Hernández | Dana Paola Sánchez Alonso | Dulce Grecia Pérez Capilla | Lizeth Bonilla Díaz
