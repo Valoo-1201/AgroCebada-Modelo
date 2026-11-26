@@ -1,3 +1,5 @@
+<p align="center"><b>Español</b> | <a href="README.en.md">English</a></p>
+
 # Rendimiento de cebada con datos satelitales, clima y suelo — Reto AgroCebada FIRA 2026
 
 **Equipo Mystical Circles**
@@ -17,7 +19,22 @@ Validación cruzada estratificada de 5 pliegues repetida 10 veces (50 pliegues) 
 
 El RMSE y el MAE se promedian por pliegue; con todas las predicciones fuera de pliegue juntas, el RMSE del modelo final es 0.503 t/ha. Los intervalos P10–P90 cubrieron el 79.1 % de los rendimientos observados (nominal: 80 %) y el 79.5 % de las parcelas superó su rendimiento financiable P20. Ninguna variable satelital, climática o de suelo mostró señal superior al azar dentro de cada municipio (prueba de permutación con 1 000 permutaciones). El detalle está en el reporte técnico y en `qa/nb06_report.md` y `qa/nb07_report.md`, que generan los cuadernos.
 
+<p align="center">
+  <img src="docs/figuras/05-escalera-modelos.png" width="640" alt="Escalera de modelos: diferencia de RMSE frente a la media municipal" />
+</p>
+<p align="center"><sub>Comparación de modelos en los mismos 50 pliegues: diferencia de RMSE frente a la media municipal (negativo = mejor). Cuaderno 06.</sub></p>
+
+<p align="center">
+  <img src="docs/figuras/06-observado-vs-predicho.png" width="760" alt="Rendimiento observado contra predicho fuera de pliegue" />
+</p>
+<p align="center"><sub>Rendimiento observado contra predicho fuera de pliegue: media municipal (izquierda) y proceso gaussiano jerárquico (derecha). Cuaderno 06.</sub></p>
+
 Las predicciones entregadas están en [`outputs/predicciones_finales.csv`](outputs/predicciones_finales.csv).
+
+<p align="center">
+  <img src="docs/figuras/08-predicciones-finales.png" alt="Mapa de rendimiento observado y predicho, e intervalos calibrados de las 59 parcelas" />
+</p>
+<p align="center"><sub>Izquierda: rendimiento observado (círculos) y predicho (rombos) en el mapa. Derecha: predicción, intervalo P10–P90 y rendimiento financiable P20 de las 59 parcelas, coloreados por nivel de riesgo. Cuaderno 07.</sub></p>
 
 Los cuadernos de `notebooks/` se publican ya ejecutados en Google Colab, con sus salidas y figuras. Esa ejecución reprodujo byte por byte el archivo de predicciones entregado.
 
@@ -38,7 +55,8 @@ Los cuadernos de `notebooks/` se publican ya ejecutados en Google Colab, con sus
 ├── src/
 │   └── agc_models.py          código compartido de modelado (lo escribe el cuaderno 06)
 ├── docs/
-│   └── sources.md             fuentes de datos y referencias de métodos
+│   ├── sources.md             fuentes de datos y referencias de métodos
+│   └── figuras/               figuras usadas en este README
 └── outputs/
     ├── predicciones_finales.csv     las 59 parcelas de predicción (entrega)
     ├── predicciones_todas.csv       las 197 parcelas, para la aplicación web
@@ -104,6 +122,16 @@ Ejecuta los cuadernos en el mismo orden. Fuera de Colab, cada cuaderno toma la c
 3. **Validación.** Antes de modelar se fijaron 10 repeticiones de validación cruzada estratificada de 5 pliegues y una validación secundaria con bloques espaciales. Todo paso que usa el rendimiento (selección de variables, hiperparámetros, codificación de municipio) ocurre dentro de cada pliegue.
 4. **Modelos.** Media municipal, ridge, bosque aleatorio y LightGBM sobre residuos municipales, proceso gaussiano espacial, kriging de regresión y un proceso gaussiano jerárquico propio, con y sin variables; además, dos modelos sin ubicación y un ensamble por mínimos cuadrados no negativos.
 5. **Incertidumbre.** Intervalos calibrados por predicción conforme sobre los errores estandarizados fuera de pliegue; el percentil 20 se reporta como rendimiento financiable y define tres niveles de riesgo.
+
+### El flujo en figuras
+
+| | |
+|---|---|
+| <img src="docs/figuras/01-suavizado-whittaker.png" alt="Suavizado de Whittaker en una parcela" /> | **Series satelitales (cuaderno 02).** NDVI de PlanetScope de una parcela: puntos conservados, imágenes nubladas descartadas, picos rechazados y la curva diaria suavizada. |
+| <img src="docs/figuras/02-fenologia.png" alt="Detección de la temporada por parcela" /> | **Fenología (cuaderno 03).** Temporada detectada en cada parcela (inicio, centro y fin) y las ventanas temprana, media y tardía del cultivo. |
+| <img src="docs/figuras/03-clima-2025.png" alt="Clima mensual de 2025 frente a 2022-2024" /> | **Clima (cuaderno 04).** Precipitación y temperatura mensual de 2025 frente al promedio 2022–2024: 2025 fue un año atípico. |
+| <img src="docs/figuras/04-semivariograma.png" alt="Semivariograma de los residuos municipales" /> | **¿Por qué un modelo espacial? (cuaderno 06).** Las parcelas cercanas del mismo municipio se parecen más: la semivarianza crece con la distancia. |
+| <img src="docs/figuras/07-preguntas-guia.png" alt="Capacidad predictiva de cada índice satelital y variable climática" /> | **Preguntas guía (cuaderno 07).** Capacidad predictiva de cada índice satelital y de cada variable climática por sí sola, sin información de ubicación. |
 
 ## Archivo de predicciones
 
