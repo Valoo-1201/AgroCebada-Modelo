@@ -157,6 +157,15 @@ Ejecuta los cuadernos en el mismo orden. Fuera de Colab, cada cuaderno toma la c
 
 Además de los datos del reto, el flujo usa CHIRPS (Funk et al., 2015), CHIRTS-ERA5 (Climate Hazards Center, 2025), el Continuo de Elevaciones Mexicano 4.0 (INEGI) y SoilGrids 2.0 (Poggio et al., 2021). Las referencias completas de datos y métodos están en [`docs/sources.md`](docs/sources.md).
 
+## Repositorios relacionados
+
+El proyecto vive en dos repositorios. Los dos están enlazados al final del capítulo 2 de la página
+(sección «¿Quieres ver cómo lo hicimos?»).
+
+- **Página web (este repositorio):** [github.com/Hyatxs/AgroCebada-Modular](https://github.com/Hyatxs/AgroCebada-Modular)
+- **Modelo predictivo:** [github.com/Valoo-1201/AgroCebada-Modelo](https://github.com/Valoo-1201/AgroCebada-Modelo).
+  Contiene los notebooks de donde salen las cifras del sitio (NB03 fenología, NB04 clima, NB07 modelo final).
+
 ## Equipo
 
 Equipo Representativo STEM · UDLAP · Lourdes María García Garfias | María Valentina García Hernández | Dana Paola Sánchez Alonso | Dulce Grecia Pérez Capilla | Lizeth Bonilla Díaz 
