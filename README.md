@@ -156,3 +156,7 @@ Ejecuta los cuadernos en el mismo orden. Fuera de Colab, cada cuaderno toma la c
 ## Fuentes de datos
 
 Además de los datos del reto, el flujo usa CHIRPS (Funk et al., 2015), CHIRTS-ERA5 (Climate Hazards Center, 2025), el Continuo de Elevaciones Mexicano 4.0 (INEGI) y SoilGrids 2.0 (Poggio et al., 2021). Las referencias completas de datos y métodos están en [`docs/sources.md`](docs/sources.md).
+
+## Equipo
+
+Equipo Representativo STEM · UDLAP · Lourdes María García Garfias | María Valentina García Hernández | Dana Paola Sánchez Alonso | Dulce Grecia Pérez Capilla | Lizeth Bonilla Díaz 
